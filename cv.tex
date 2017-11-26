@@ -89,6 +89,18 @@
 
 \linespread{1.1}
 
+
+% head 
+%\usepackage{fancyhdr}
+%
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[L]{%
+%  Taihong Xiao\ (\href{mailto:xiaotaihong@pku.edu.cn}{\textcolor{blue}{\tt xiaotaihong@pku.edu.cn}})
+%  \rhead{ICME PhD, Fall, 2018}
+%}
+%\cfoot{\thepage}
+
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -118,8 +130,6 @@
 
 %\section*{Personal Information}
 
-%\years{Nationality} Chinese 
-
 \years{Address} Peking University, Haidian District, Beijing, China, \texttt{100871} 
 
 \years{Phone} \texttt{(86)18210929266}
@@ -130,13 +140,13 @@
 
 \years{Homepage} \url{https://prinsphield.github.io} % Your academic/personal website
 
-\years{Research\\Interests} Computer Vision, Deep Learning, Machine Learning, Numerical Optimization
+\years{Research\\Interests} Computer Vision, Machine Learning, Deep Learning and Numerical Optimization
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\section*{Education}
+\section*{Educations}
 
 \years{2015-2018}\textbf{Department of Information Sciences, School of Mathematical Sciences, Peking University}
 
@@ -166,7 +176,7 @@ B.S. Mathematics and Applied Mathematics. \hfill GPA: 88.02/100, Rank: 4/14
 %	PUBLICATIONS SECTION
 %----------------------------------------------------------------------------------------
 
-\section*{Publications}
+\section*{Publications and Patents}
 
 \years{2018}\textbf{DNA-GAN: Learning Disentangled Representations from Multi-Attribute Images}
 
@@ -212,31 +222,35 @@ Taihong Xiao and Jinwen Ma
 \href{https://link.springer.com/chapter/10.1007\%2F978-3-319-63315-2_9}{[Paper]}
 \href{https://github.com/Prinsphield/ILFPT}{[GitHub]}
 
+\years{2017.09\\CN Patent}\textbf{A Head-detection Based Face Tracking Method}
 
+Taihong Xiao, Shuchang Zhou and Yuchao Pan
+
+\emph{Chinese Patent}, CN201710253546.5, In Process
 
 
 %----------------------------------------------------------------------------------------
 %	RESEARCH & WORKING EXPERIENCES SECTION
 %----------------------------------------------------------------------------------------
 
-\section*{Research and Working Experiences}
+\section*{Research and Working Experience}
 
-\years{2017.01-\\present}{\bf Research Intern. Megvii (Face++) Inc.}\hfill 
+\years{2017.01-\\2017.11}{\bf Research Intern. Megvii (Face++) Inc.}\hfill 
 \mbox{Advisor: Dr.~\href{https://zsc.github.io/}{Shuchang Zhou}}
 
-{\bf $\blacktriangleright$ Face Attributes Transfiguration}\quad To overcame the problem of background change and attribute drift lying in many other models such as the CycleGAN, we proposed an instance-level object transfiguration model named GeneGAN. I participated most of experiments using our proprietary MegDL framework, and reproduce them using TensorFlow. This paper was accepted by BMVC 2017 as an oral presentation.
+{\bf $\blacktriangleright$ Face Attributes Transfiguration}\quad I  proposed a cross-domain image translation method named GeneGAN to achieve generate multi-modal images of a certain attribute. I participated most of experiments using our proprietary MegDL framework, and reproduce them using TensorFlow. This paper was accepted by BMVC 2017 as an oral presentation.
 
-{\bf $\blacktriangleright$ Quantized Neural Networks}\quad I participated the research of compressing and accelerating neural networks. We proposed an multi-bit quantization algorithm that iteratively  solves for optimal scaling factor to reduce quantization errors. Besides, I did experiments of iterative training using TensorFlow. This paper was published on ICANN 2017.
+{\bf $\blacktriangleright$ Quantized Neural Networks}\quad I participated the research of compressing and accelerating neural networks. We proposed an multi-bit quantization algorithm that iteratively  solves for optimal scaling factor to reduce quantization errors. Besides, I did experiments of iterative training using TensorFlow. This paper was published in ICANN 2017.
 
 \years{2016.01-\\present}{\bf Research Assistant. School of Mathematical Sciences and Key Laboratory of Mathematics and Its Applications, Peking University.} \hfill
 \mbox{Advisor: Prof.~\href{http://www.math.pku.edu.cn/is/~jwma/}{Jinwen Ma}}
 
-{\bf $\blacktriangleright$ Disentangled Representations}\quad I proposed an supervised algorithm called DNA-GAN that can learn disentangled representations from multi-attribute images. The annihilating operation can prevent from trivial solutions and the iterative training strategy overcomes the difficulty of training on unbalanced datasets. This paper was under review at ICLR 2018.
+{\bf $\blacktriangleright$ Disentangled Representations}\quad I proposed DNA-GAN for learning disentangled representations from multi-attribute images. The annihilating operation could prevent from trivial solutions and the iterative training strategy overcame the difficulty of training on unbalanced datasets. This paper was under review at ICLR 2018.
 
 {\bf $\blacktriangleright$ Tensor Decomposition}\quad I proposed a low-rank tensor decomposition method via $\ell_p$-norm optimization on matrix manifolds. Theoretically, I proved that the optimal solution to our $\ell_p$-norm optimization form is equivalent to the matrix SVD in the two-way case, and in the higher-order case, the obtained tensor decomposition is just the diagonal tensor SVD if the tensor is diagonally decomposable.
 	This paper was submitted to JCAM and currently under review.
 
-{\bf $\blacktriangleright$ Pedestrian Tracking}\quad I proposed an integrated framework for pedestrian tracking. The core of our method is an efficient switching mechanism between detection frames and non-detection frames, which is able to overcome vast variations, distractions from similar person and occlusions. This paper was accepted by ICIC 2017 as an oral presentation.
+{\bf $\blacktriangleright$ Pedestrian Tracking}\quad I proposed an integrated framework for pedestrian tracking. The core of our method is an efficient switching mechanism between detection frames and non-detection frames, which is able to overcome vast variations, distractions from similar person and occlusions. This paper was accepted to ICIC 2017 as an oral presentation.
 
 
 
@@ -299,11 +313,13 @@ Taihong Xiao and Jinwen Ma
 
 \years{2016.09-\\2017.01} \textbf{Teaching Assistant. Advanced Math B. Peking University} %\hfill Instructor: Prof. Zaizhao Meng 
 
-Gave weekly exercise classes and graded homework for students from School of Electronics Engineering and Computer Science, Peking University.
+Gave weekly exercise classes and graded homework.
+% for students from School of Electronics Engineering and Computer Science, Peking University.
 
 \years{2014.09-\\2015.01} \textbf{Teaching Assistant. Mathematical Analysis \uppercase\expandafter{\romannumeral1}. Shandong University} %\hfill Instructor: Prof. Guangshi Lyu
 
-Gave part of lectures and graded homework for students from Taishan College, Shandong University.
+Gave part of lectures and graded homework. 
+% for students from Taishan College, Shandong University.
 
 
 
